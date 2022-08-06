@@ -1,9 +1,9 @@
 print("Welcome to the tip machine")
 
-bill = float(input("What is your bill?\n$:"))
-tip = float(input("How much would you like to tip?\n$:"))
+bill = float(input("What is your bill?\nkr:"))
+tip = float(input("How much would you like to tip?\nkr:"))
 split = int(input("How many are you splitting between?\nPeople:"))
 
 total = ("{:.2f}".format(((bill + tip) / split)))
 
-print(f"Each person should pay ${total}")
+print(f"Each person should pay kr{total}")
