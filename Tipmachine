@@ -1,4 +1,4 @@
-print("Welcome to the tip machine")
+print("Welcome to the tipmachine")
 
 bill = float(input("What is your bill?\nkr:"))
 tip = float(input("How much would you like to tip?\nkr:"))
